@@ -1,0 +1,48 @@
+.grid-container {
+  display: grid;
+  justify-content: center;
+  height: 100vh;
+  align-content: center;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(6, 100px);
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+}
+
+.grid-item {
+  border: 1px white solid;
+  color: white;
+}
+
+.display {
+  display: grid;
+  grid-column: 1 / -1;
+  justify-items: end;
+  align-items: center;
+  background-color: #583f64;
+}
+
+.elements,
+.numbers,
+.operators {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.elements {
+  background-color: #785589;
+}
+
+.numbers {
+  background-color: #a282b0;
+}
+
+.operators {
+  background-color: #262d26;
+}
+
+.zero {
+  display: grid;
+  grid-column: 1 / 3;
+}
