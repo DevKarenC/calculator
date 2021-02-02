@@ -7,7 +7,6 @@ function removeTransition() {
 }
 
 document.querySelectorAll(".calculator-item").forEach((item) => {
-  item.addEventListener("click", handleKeyPad);
   item.addEventListener("mousedown", addTransition);
   item.addEventListener("mouseup", removeTransition);
 });
