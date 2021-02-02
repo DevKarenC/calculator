@@ -9,9 +9,14 @@
   font-size: 2rem;
 }
 
-.calculator-item {
+.calculator-item,
+.display {
   border: 1px white solid;
   color: white;
+}
+
+.calculator-item-onclick {
+  filter: brightness(130%);
 }
 
 .display {
