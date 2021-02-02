@@ -1,4 +1,4 @@
-.grid-container {
+.calculator {
   display: grid;
   justify-content: center;
   height: 100vh;
@@ -9,7 +9,7 @@
   font-size: 2rem;
 }
 
-.grid-item {
+.calculator-item {
   border: 1px white solid;
   color: white;
 }
