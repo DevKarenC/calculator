@@ -1,18 +1,45 @@
+body,
+html {
+  background-color: #d1fcf6;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.title {
+  font-family: "Asap", sans-serif;
+  font-size: 4rem;
+}
+
+.github-logo {
+  text-align: center;
+  padding-left: 1rem;
+  padding-top: 1.6rem;
+}
+
 .calculator {
   display: grid;
   justify-content: center;
-  height: 100vh;
   align-content: center;
   grid-template-columns: repeat(4, 100px);
   grid-template-rows: repeat(6, 100px);
   font-family: "Inter", sans-serif;
   font-size: 2rem;
+  position: relative;
+  width: 400px;
+  margin: 3vh auto;
+  border: 20px white solid;
+  border-radius: 15px;
 }
 
 .calculator-key,
 .display {
-  border: 1px white solid;
   color: white;
+  border: 1px white solid;
 }
 
 .calculator-key-onclick {
@@ -26,6 +53,8 @@
   align-items: center;
   background-color: #583f64;
   font-size: 3rem;
+  border-bottom: 4px white solid;
+  padding-right: 20px;
 }
 
 .elements,
@@ -34,10 +63,12 @@
   display: grid;
   justify-items: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .elements {
-  background-color: #785589;
+  background-color: #ed5e5e;
+  /* border-top: 2px white solid; */
 }
 
 .numbers {
